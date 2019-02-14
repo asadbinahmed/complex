@@ -9,10 +9,10 @@ script:
   - docker run asadbinahmed/complex npm run test -- --coverage
 
 after_success:
-  - docker build -t asadbinahmed/multi-client ./client
-  - docker build -t asadbinahmed/multi-nginx ./nginx
-  - docker build -t asadbinahmed/multi-server ./server
-  - docker build -t asadbinahmed/multi-worker ./worker
+  - docker build -t ahmedhaigi/multi-client ./client
+  - docker build -t ahmedhaigi/multi-nginx ./nginx
+  - docker build -t ahmedhaigi/multi-server ./server
+  - docker build -t ahmedhaigi/multi-worker ./worker
   # login to docker cli
  
   
