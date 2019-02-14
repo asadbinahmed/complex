@@ -20,7 +20,7 @@ after_success:
   
 
   # take those images and push them to docker hub
-  - docker push asadbinahmed/multi-client
-  - docker push asadbinahmed/multi-nginx
-  - docker push asadbinahmed/multi-server
-  - docker push asadbinahmed/multi-worker
+  - docker push ahmedhaigi/multi-client
+  - docker push ahmedhaigi/multi-nginx
+  - docker push ahmedhaigi/multi-server
+  - docker push ahmedhaigi/multi-worker
