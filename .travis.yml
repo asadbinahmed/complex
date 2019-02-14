@@ -21,3 +21,4 @@ after_success:
   - docker push asadbinahmed/multi-nginx
   - docker push asadbinahmed/multi-server
   - docker push asadbinahmed/multi-worker
+  
